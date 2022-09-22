@@ -1,0 +1,43 @@
+ul.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+ul.menu li {
+  width: 50px;
+  height: 50px;
+  background: url("./sprite.png") no-repeat;
+  display: inline-block;
+}
+
+ul.menu li.firefox:hover {
+  background-position: 0 -50px;
+}
+
+ul.menu li.chrome {
+    background-position: 0 -100px;
+}
+ul.menu li.chrome:hover {
+    background-position: 0 -150px;
+}
+ul.menu li.ie {
+    background-position: 0 -200px;
+}
+ul.menu li.ie:hover {
+    background-position: 0 -250px;
+}
+ul.menu li.safari {
+    background-position: 0 -300px;
+}
+ul.menu li.safari:hover {
+    background-position: 0 -350px;
+}
+ul.menu li.opera {
+    background-position: 0 -400px;
+}
+ul.menu li.opera:hover {
+    background-position: 0 -450px;
+}

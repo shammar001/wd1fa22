@@ -1,0 +1,15 @@
+section {
+  width: 50%;
+  padding: 1em;
+  border: 1px dashed black;
+}
+
+article {
+  border-left: 3px double black;
+  padding-left: 0.75em;
+}
+
+article:hover {
+  border-left-color: #FF0000;
+  border-left-width: 6px;
+}

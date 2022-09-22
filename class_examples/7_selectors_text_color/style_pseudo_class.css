@@ -1,0 +1,35 @@
+a:link {
+  color: #FF0000;
+}
+
+a:visited {
+  color: #228B22;
+}
+
+a:active {
+  font-weight: bold;
+}
+
+a:hover, a:focus {
+  color: #1E90FF;
+}
+
+a:not(.one) {
+  font-variant: small-caps;
+}
+
+h2:target {
+  background: yellow;
+}
+
+ul>li:first-child {
+  background: deepskyblue;
+}
+
+ul>li:last-child {
+  font-style: italic;
+}
+
+ul>li:only-child {
+  font-weight: bold;
+}

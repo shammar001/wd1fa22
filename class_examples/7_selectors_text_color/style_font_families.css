@@ -1,0 +1,21 @@
+p {
+  font-size: 3em;
+}
+.serif {
+  font-family: "Times New Roman", times, serif;
+}
+.sans-serif {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.mono {
+  font-family: "Courier New", Courier, monospace;
+}
+.fantasy {
+  font-family: fantasy;
+}
+.cursive {
+  font-family: cursive;
+}
+.embeded {
+  font-family: 'Press Start 2P', cursive;
+}

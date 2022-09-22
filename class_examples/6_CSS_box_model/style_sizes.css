@@ -1,0 +1,18 @@
+section {
+  height: 300px;
+  width: 75%;
+  background: grey;
+}
+
+article p:first-child {
+  max-width: 400px;
+  width: 75%;
+  background: white;
+}
+
+#short {
+  width: 75%;
+  min-width: 300px;
+  background: black;
+  color: white;
+}

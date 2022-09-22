@@ -1,0 +1,15 @@
+section h2 {
+  background: yellow;
+}
+
+section>p {
+  background: deepskyblue;
+}
+
+h2~p {
+  font-style: italic;
+}
+
+h2+p {
+  font-weight: bold;
+}

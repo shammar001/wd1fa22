@@ -1,0 +1,25 @@
+section {
+  margin: 3em;
+  background: gray;
+  border: 1px dashed white;
+}
+
+p {
+  background: white;
+}
+
+#one {
+  margin: 0 2em; /* Top/Bottom 0, Right/LEft 2em */
+}
+
+#two {
+  margin: 0 2em 3em; /* Top 0, Right/LEft 2em, Bottom 3em */
+}
+
+#three {
+  margin: 1em 2em 3em 4em;
+}
+
+#four {
+  margin-bottom: 5em;
+}

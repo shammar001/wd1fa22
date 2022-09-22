@@ -1,0 +1,48 @@
+.simple {
+  width: 500px;
+  margin: 20px auto;
+  background: gray;
+}
+
+.fancy {
+  width: 500px;
+  margin: 20px auto;
+  background: deepskyblue;
+  padding: 50px;
+  border-width: 10px;
+  border-color: #0000FF;
+  border-style: dashed;
+}
+
+.outside_simple_box {
+	border: 10px solid #000000;
+	width: 500px;
+	margin: 0 auto;
+}
+.outside_fancy_box {
+	border: 10px solid #000000;
+	width: 620px;
+	margin: 0 auto;
+}
+
+.outside_no_simple_box ,
+.outside_no_fancy_box {
+	border: 10px solid #000000;
+	width: 500px;
+	margin: 0 auto;
+}
+
+.no_simple {
+  width: 500px;
+  margin: 20px auto;
+  background: gray;
+  box-sizing: border-box;
+}
+
+.no_fancy {
+  width: 500px;
+  margin: 20px auto;
+  padding: 50px;
+  border: 10px dashed #0000FF;
+  box-sizing: border-box;
+}

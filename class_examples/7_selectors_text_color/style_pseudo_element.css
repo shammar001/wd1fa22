@@ -1,0 +1,25 @@
+p::first-letter {
+  font-size: 3em;
+  font-weight: bold;
+  font-family: fantasy;
+}
+
+p::first-line {
+  background: yellow;
+}
+
+p::selection {
+  /* Can only use color, background,
+     background-color, and text-shadow */
+  color: red;
+}
+
+a.after::after {
+  color: #9799A7;
+  font-size: 11px;
+  content: " (" attr(href) ")";
+}
+
+a.before::before {
+  content: "♥ ";
+}

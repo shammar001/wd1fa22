@@ -1,0 +1,30 @@
+body {
+  background-image: url("./bg.jpg");
+}
+
+section {
+  background-color: #BEBEBE;
+  padding: 2em;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1, h3, p {
+  padding: 1em;
+}
+
+h1, h3 {
+  color: #FFFFFF;
+}
+
+h1 {
+  background-color: #00858B;
+}
+
+h3 {
+  background: #EE3E80;
+}
+
+p {
+  background-color: #FFFFFF;
+}

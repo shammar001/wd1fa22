@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background: grey;
+  border: 1px solid black;
+  padding: 2em;
+  margin: 1em;
+}
+
+p {
+  background: white;
+}
+
+#one {
+  margin-bottom: 3em;
+}
+
+#two {
+  margin-top: 3em;
+  padding-bottom: 3em;
+}
+
+#three {
+  padding-top: 3em;
+}
+
+#centered {
+  width: 300px;
+  margin: 0 auto;
+}

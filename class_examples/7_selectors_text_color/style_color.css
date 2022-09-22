@@ -1,0 +1,30 @@
+body {
+  background: black;
+  color: #FFFFFF; /* White */
+}
+
+#main-header {
+  padding-bottom: 0.75em;
+  border-bottom: 3px solid #000000;
+  margin-bottom: 0;
+  background: ghostwhite;
+  color: black;
+}
+
+li {
+  color: rgb(100%, 0%, 0%);
+}
+
+article h2 {
+  color: rgb(0, 255, 0);
+}
+
+aside h2 {
+  background: rgba(50%, 50%, 50%, 0.5);
+  color: hsl(120, 100%, 25%);
+}
+
+p {
+  background: #999999;
+  color: hsla(120, 100%, 25%, 0.1);
+}

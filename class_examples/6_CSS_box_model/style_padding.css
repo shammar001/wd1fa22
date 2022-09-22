@@ -1,0 +1,25 @@
+section {
+  background: gray;
+  border: 1px solid black;
+  padding: 3em;
+}
+
+p {
+  background: white;
+}
+
+#one {
+  padding: 0 2em; /* Top/Bottom 0, Right/Left 2em */
+}
+
+#two {
+  padding: 0 2em 3em; /* Top 0, Left/Right 2em, Bottom 3em */
+}
+
+#three {
+  padding: 1em 2em 3em 4em;
+}
+
+#four {
+  padding-bottom: 5em;
+}
