@@ -12,7 +12,7 @@
     /* A system font stack so things load nice and quick! */
     font-family: "Rubik", Roboto, Helvetica, Arial, sans-serif;
     color: var(--text);
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.07);
+    text-shadow: 0 1px 0 rgba(111, 14, 14, 0.07);
   }
   
   /*
@@ -53,7 +53,7 @@
   /* .wrapper */
   .wrapper {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 550px;
   }
   
   .top {
@@ -82,6 +82,34 @@
     grid-area: cta2;
   }
   
+  .cta3 {
+    grid-area: cta3;
+  }
+  
+  .cta4 {
+    grid-area: cta4;
+  }
+
+  .cta5 {
+    grid-area: cta5;
+  }
+
+  .cta6 {
+    grid-area: cta6;
+  }
+
+  .cta7 {
+    grid-area: cta7;
+  }
+
+  .cta8 {
+    grid-area: cta8;
+  }
+
+  .cta9 {
+    grid-area: cta9;
+  }
+
   .hero {
     display: flex;
     flex-direction: column;
@@ -109,10 +137,6 @@
     margin: 0;
     text-align: center;
     color: var(--background);
-  }
-  
-  .price {
-    font-size: 60px;
   }
   
   /* Navigation */
