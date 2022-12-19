@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    
+    <title>Final Website -- All the things X-Files</title>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/logo.jpeg"></a>
+        <div class="nav-links">
+          <i class="fa fa-window-minimize" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="evidence.html">EVIDENCE</a></li>
+              <li><a href="staff.html">STAFF</a></li>
+              <li><a href="share.html">SHARE</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-window-minimize" onclick="showMenu()"></i>
+    </nav>
+      <h1><u>Share Your Experience Below</u></h1>
+      <p>The only way to believe is with the support from our community in keeping these experiences undead!</p><br>
+        
+<!----*SHARE*---->
+<div class="share">
+  
+<form>
+  <div class="input-group">
+    <input type="text" id="name" required>
+    <label for="name">Your Name</label>
+  </div>
+  <div class="input-group">
+    <input type="text" id="zipcode" required>
+    <label for="Zipcode">Zip Code</label>
+  </div>
+  <div class="input-group">
+    <input type="text" id="email" required>
+    <label for="email">Email ID</label>
+  </div>
+  <div class="input-group">
+    <textarea id="message" cols="50" rows="20" placeholder="Share your Untold here..."></textarea>
+    
+    <label for="message"></label>
+  </div>
+  <a href="index.html" class="hero-btn">SUBMIT</a>
+</form>
+</div>
+</section>
+<!----*END SHARE*---->  
+
+<!----*FOOTER*---->
+<section class="footer">
+  <div>
+    <p>Made by Hammartimes&copy;<br>12.2022</p>
+  </div>
+</section>
+<!----*END FOOTER*---->
+  
+</body>
+</html>

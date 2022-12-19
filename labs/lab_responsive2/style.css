@@ -7,7 +7,20 @@
     --white: #FFFFFF;
     --btn: #28A745;
     --btn-hover: #218838;
+    --background-color: #920707;
 }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: var(--background);
+  margin: 25px;
+}
+
 
 h1,
 h2,
@@ -15,9 +28,16 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
+  margin: 0 0 5px 0;
 }
 
+button {
+  background: var(--background);
+  border: 2px solid var(--light-gray);
+  padding: 40px 10px;
+  border-radius: 5px;
+  color: #218838;
+}
 html {
       /* border-box box model allows us to add padding and border to our elements without increasing their size */
       box-sizing: border-box;
@@ -27,5 +47,17 @@ html {
 img {
 	/* Make Images Responsive */
     max-width: 100%;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.hero {
+  display: grid;
+  grid-area: auto;
+  color-scheme: var(--background-color);
+  width: 700px;
 }
 /* END Default Styles */

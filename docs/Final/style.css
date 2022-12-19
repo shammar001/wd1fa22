@@ -1,0 +1,510 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("images/background1.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  width: 150px;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a {
+  color: #08d92b;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-links ul li::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #08d92b;
+  display: block;
+  margin: auto;
+  transition: 0.3s;
+}
+
+.nav-links ul li:hover::after {
+width: 100%;
+
+}
+
+.text-box {
+width: 90%;
+color: #08d92b;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+}
+
+.text-box h1 {
+font-size: 40px;
+}
+
+.text-box p {
+margin: 10px 0 40px;
+font-size: 23px;
+color: #08d92b;
+}
+
+.hero-btn {
+display: inline-block;
+text-decoration: none;
+color: #08d92b;
+border:  1px solid #08d92b;
+padding: 12px 34px;
+background: transparent;
+position: relative;
+cursor: pointer;
+}
+
+.hero-btn:hover {
+border: 1px solid #FFFFFF;
+background: #0e14b9;
+transition: 1.5s;
+}
+
+.nav .fa-window-minimize {
+display: none;
+}
+
+@media(max-width: 700px) {
+.text-box h1 {
+  font-size: 20px;
+}
+.nav-links ul li {
+  display: block;
+}
+.nav-links {
+  position: absolute;
+  background: url("images/background1.png");
+  background-position: center;
+  height: 30%;
+  width: 200px;
+  top: 0;
+  right: 20px;
+  text-align: left;
+  z-index: 2;
+  transition: 1s;
+}
+nav .fa-window-minimize {
+  display: block;
+  color: #08d92b;
+  margin: 10px;
+  font-size: 43px;
+  cursor: pointer;
+}
+.nav-links ul {
+  padding: 30px;
+}
+}
+
+/*ABOUT X-FILES*/
+
+.aboutXFiles {
+color: #08d92b;
+min-height: 100vh;
+width: 100%;
+background-image: url("images/background1.png");
+background-position: center;
+background-size: cover;
+position: relative;
+margin: auto;
+text-align: center;
+padding-top: 100px;
+}
+h1 {
+font-size: 30px;
+font-weight: 600;
+}
+
+p {
+color: #08d92b;
+font-size: 27px;
+font-weight: 300;
+line-height: 22px;
+padding: 10px;
+}
+
+.row {
+margin-top: 5%;
+display: flex;
+justify-content: space-between;
+}
+
+.aboutXFiles-col {
+flex-basis: 31%;
+background: #1a25c7;
+border-radius: 10px;
+margin-bottom: 5%;
+padding: 20px 12px;
+box-sizing: border-box;
+transition: 0.3s;
+}
+
+h3 {
+text-align: center;
+font-weight: 600;
+margin: 10px 0;
+}
+
+.aboutXFiles-col:hover {
+box-shadow: 20px;
+}
+
+@media(max-width: 700px) {
+.row {
+  flex-direction: column;
+}
+}
+
+/*EVIDENCE*/
+
+.evidence {
+color: #08d92b;
+min-height: 100vh;
+width: 100%;
+background-image: url("images/background1.png");
+background-position: center;
+background-size: cover;
+position: relative;
+margin: auto;
+text-align: center;
+padding: 50px;
+}
+
+.evidence-col {
+flex-basis: 32%;
+border-radius: 10px;
+margin-bottom: 30px;
+position: relative;
+overflow: hidden;
+}
+
+.evidence-col img {
+width: 100%;
+display: block;
+}
+
+.layer {
+background: none;
+height: 100%;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+transition: 0.3s;
+
+}
+
+.layer:hover {
+background: rgba(226,0,0,0.3);
+}
+
+.layer h3 {
+width: 100%;
+font-weight: 500;
+color: #08d92b;
+font-size: 23px;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+position: absolute;
+opacity: 0;
+transition: 0.5s;
+}
+
+.layer:hover h3 {
+bottom: 47%;
+opacity: 1;
+}
+
+@media(max-width: 700px) {
+.row {
+  flex-direction: column;
+}
+}
+/*END EVIDENCE*/
+
+/* INVESTIGATION*/
+.investigation {
+min-height: 100vh;
+width: 100%;
+background-image: url("images/background1.png");
+background-position: center;
+background-size: cover;
+position: relative;
+color: #08d92b;
+margin: auto;
+text-align: center;
+padding-top: 100px;
+}
+
+.investigation-col {
+flex-basis: 31%;
+border-radius: 10px;
+margin-bottom: 5%;
+text-align: left;
+}
+
+.investigation-col img {
+width: 100%;
+border-radius: 10px;
+}
+
+.investigation-col p {
+padding: 0;
+text-align: center;
+}
+
+.investigation-col h3 {
+margin-top: 16px;
+margin-bottom: 15px;
+text-align: center;
+}
+/*END INVESTIGATION*/
+
+/*STAFF*/
+
+.staff {
+color: #08d92b;
+min-height: 100vh;
+width: 100%;
+background-image: url("images/background1.png");
+background-position: center;
+background-size: cover;
+position: relative;
+margin: auto;
+padding-top: 100px;
+text-align: center;
+}
+
+.staff-col {
+flex-basis: 44%;
+border-radius: 10px;
+margin-bottom: 5%;
+text-align: left;
+background-image: url("images/background1.png");
+background-position: center;
+background-size: cover;
+padding: 50px;
+}
+
+.staff-col img {
+border-radius: 50%;
+width: 100%;
+display: flex;
+}
+
+.staff-col p {
+margin-top: 15px;
+text-align: center;
+}
+
+.staff-col h3 {
+margin-top: 15px;
+text-align: center;
+}
+
+@media(max-width: 700px) {
+.staff-col img {
+  width: 100%;
+  display: flex;
+}
+}
+/* END STAFF*/
+
+/*CALL TO ACTION*/
+
+.cta {
+color: #08d92b;
+min-height: 100vh;
+width: 100%;
+background-image: url("images/background1.png");
+background-position: center;
+background-size: cover;
+border-radius: 10px;
+text-align: center;
+padding: 100px 0;
+}
+
+.cta h1 {
+color: #08d92b;
+margin-bottom: 40px;
+padding: 0;
+}
+
+@media (max-width: 700px) {
+.cta h1 {
+  font-size: 24px;
+}
+}
+/*END CALL TO ACTION*/
+
+
+/*FOOTER*/
+.footer {
+color: #08d92b;
+min-height: 5vh;
+width: 100%;
+background-image: url("images/trippy2.gif");
+background-position: center;
+background-size: cover;
+border-radius: 10px;
+text-align: center;
+padding: 10px;
+}
+
+.footer h4 {
+color: #08d92b;
+margin-top: 15px;
+text-align: center;
+}
+
+@media (max-width: 700px) {
+.footer img{
+  font-size: 24px;
+}
+
+/*END FOOTER*/
+
+/*ABOUT THE X-FILES (PAGE)*/
+.sub-header {
+height: 50vh;
+width: 100%;
+background-image: url("images/meteorsss.gif");
+background-position: center;
+background-size: cover;
+text-align: center;
+color: #08d92b;
+}
+
+.sub-header h1 {
+margin-top: 100px;
+}
+
+.aboutFiles {
+height: 50vh;
+width: ;
+background-image: url("images/meteorsss.gif");
+background-position: center;
+background-size: cover;
+text-align: center;
+padding: 10%;
+color: #08d92b;
+}
+
+.aboutFiles-col {
+flex-basis: 48%;
+padding: 30px 2px;
+}
+
+.aboutFiles-col img {
+width: 65%;
+}
+
+.aboutFiles-col h1 {
+padding-top: 0;
+}
+
+.aboutFiles-col h2 {
+padding-top: 0;
+}
+
+.aboutFiles-col p {
+padding: 15px 0 25px;
+}
+
+.blue-btn {
+border: 1px solid #08d92b;
+background: transparent;
+color: #0e14b9;
+}
+
+.blue-btn:hover {
+color: #08d92b;
+}
+
+@media (max-width: 700px) {
+.aboutFiles-col img {
+  width: fit-content;
+  background-image: url("images/meteorsss.gif");
+  background-size: cover;
+  font-size: 24px;
+}
+/*END ABOUT THE X-FILES (PAGE)*/
+
+/*SHARE (PAGE)*/
+.share {
+color: #08d92b;
+min-height: 100vh;
+width: 100%;
+background-image: url("images/meteorsss.gif");
+background-position: center;
+background-size: cover;
+position: relative;
+margin: auto;
+padding-top: 100px;
+text-align: center;
+}
+
+form {
+width: 90%;
+max-width: 600px;
+background-image: url("images/meteorsss.gif");
+background: transparent;
+background-position: center;
+background-size: cover;
+padding: 10px;
+}
+
+.input-group {
+margin-bottom: 30px;
+}
+
+input, textarea {
+width: 100%;
+padding: 10px;
+outline: 0;
+border: 1px solid #0e14b9;
+color: #08d92b;
+background: transparent;
+font-size: 15px;
+}
+
+label {
+height: 100%;
+position: absolute;
+}
+
+/*END SHARE (PAGE)*/
