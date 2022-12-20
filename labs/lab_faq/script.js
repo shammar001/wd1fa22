@@ -1,3 +1,3 @@
-$(".faq-plus").on('click', function(){
+$(".faq-plus").onclick function(){
     $(this).parent().parent().find('.faq-body').slideToggle();
   };
