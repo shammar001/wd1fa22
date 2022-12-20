@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>FAQ Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Source+Code+Pro:wght@200;300;400;800&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <script src="script.js">
+    $(".faq-plus").on('click', function(){
+    $(this).parent().parent().find('.faq-body').slideToggle();
+    };
+  </script>
+
+  
+<div class="container">
+  <div class="row">
+    <div class="faq-wrapper">
+      <div class="header">
+        <h1>FAQs</h1>
+      </div>
+      <div class="faq-inner">
+        <div class="faq-item">
+          <h3>What is an FAQ page ?
+          <span class="faq-plus">&plus;</span>
+          </h3>
+          <div class="faq-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor id aliquet lectus proin nibh nisl. Convallis a cras semper auctor neque vitae tempus.
+          </div>
+        </div>
+        <hr>
+        <div class="faq-item">
+          <h3>Who is an FAQ page ?
+          <span class="faq-plus">&plus;</span>
+          </h3>
+          <div class="faq-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor id aliquet lectus proin nibh nisl. Convallis a cras semper auctor neque vitae tempus.
+          </div>
+        </div>
+        <hr>
+        <div class="faq-item">
+          <h3>Why is an FAQ page ?
+          <span class="faq-plus">&plus;</span>
+          </h3>
+          <div class="faq-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor id aliquet lectus proin nibh nisl. Convallis a cras semper auctor neque vitae tempus.
+          </div>
+        </div>
+        <hr>
+        <div class="faq-item">
+          <h3>When is an FAQ page ?
+          <span class="faq-plus">&plus;</span>
+          </h3>
+          <div class="faq-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor id aliquet lectus proin nibh nisl. Convallis a cras semper auctor neque vitae tempus.
+          </div>
+        </div>
+        <hr>
+        <div class="faq-item">
+          <h3>Where is an FAQ page ?
+          <span class="faq-plus">&plus;</span>
+          </h3>
+          <div class="faq-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor id aliquet lectus proin nibh nisl. Convallis a cras semper auctor neque vitae tempus.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <hr>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer>
+  </script> 
+  
+</section>
+  <h2>Contribute to FAQs</h2>
+<section class="questions">
+  <form>
+    <div class="input-group">
+    <textarea id="message" cols="50" rows="10" placeholder="Ask A Question..."></textarea>
+    <label for="question"></label>
+  </div>
+  <div class="input-group">
+    <textarea id="answer" cols="50" rows="10" placeholder="Answer a FAQ..."></textarea>
+    <label for="answer"></label>
+  </div>
+</form>
+</div>
+  <button type="button">Submit!</button>
+</section>
+</body>
+
+</html>
